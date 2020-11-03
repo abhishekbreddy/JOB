@@ -40,22 +40,26 @@ export default class Myprofilestudent extends React.Component{
         return(<div className="Information"><form><label className="title">
             Fullname: </label >
             <input/> <br></br><label className="title">
-            Company Name: </label>
+            Schoolname: </label>
             <input className= "text"/><br></br><label className="title">
-            Designtion: </label>
+            Collegename: </label>
             <input className= "text"/> <br></br><label className="title">
             Mobilenumber:</label>
             <input className= "text"/><br></br><label className="title">
             Emailid:</label>
-            <input type ="email"className= "text"/><br></br><label className="title">
-             Company id:</label>
+            <input className= "text"/><br></br><label className="title">
+             College id:</label>
                 <input type="file" onChange={this.onFileChange}  /> 
                 <button onClick={this.onFileUpload}> 
                   Upload! 
                 </button> <br></br>
                 <label  className="title">
-                    Companyaddress:</label>
-                <input type ="textarea"className= "text"/>
+            Certificate:</label>
+                <input type="file" onChange={this.onFileChange} /> 
+                <button > 
+                  Upload! 
+                </button> <br></br>
+                
                 <button >Submit</button>
          
         
